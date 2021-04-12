@@ -1,4 +1,4 @@
-<img style="display:inline-block;" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGIgFfIB4L2vQ/company-logo_200_200/0/1555437741703?e=2159024400&v=beta&t=50eWQpw0AVswLddGZTlW9y6fXFjzt5O7vUyasQ5dEGA" alt="drawing" width="200"/>
+<img src="00-Prebootcamp/td_cd.png" alt="drawing" width="900"/>
 
 # DESARROLLO DE APLICACIONES FULL STACK PYTHON TRAINEE 👨‍💻
 
