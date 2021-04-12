@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#container{
+margin: 0px auto;
+padding: 15px;
+}
+header{
+min-height: 150px;
+background-color: green;
+}
+aside{
+min-height: 300px;
+background-color: blue;
+display: inline-block;
+vertical-align: top;
+margin: 15px 25px 0 0;
+}
+section{
+min-height: 400px;
+background-color: red;
+display: inline-block;
+margin: 15px 0;
+padding: 10px;
+}
+.subcontents{
+min-height: 200px;
+background-color: yellow;
+display: inline-block;
+}
+.advertisement{
+min-height: 120px;
+width: 660px;
+background-color: purple;
+margin: 15px 0;
+}
+
+@media only screen and (max-width: 720px){
+    aside{
+        display: none;
+    }
+    section, header {
+        width: 100%;
+    }
+    .subcontents, .advertisement {
+        width: 100%;
+    }
+    
+}
+@media only screen and (min-width: 721px){
+    aside{
+        display: none;
+    }
+    section, header {
+        width: 100%;
+    }
+    .subcontents {
+        width: 49%;
+    }
+    .advertisement {
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 1300px){
+    aside {
+        display: inline-block;
+        width: 24%;
+    }
+    section {
+        width: 72%;
+    }
+    .subcontents {
+        width: 33%;
+    }
+}
