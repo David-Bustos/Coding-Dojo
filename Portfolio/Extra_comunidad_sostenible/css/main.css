@@ -1,0 +1,49 @@
+/* Inserta tu codigo aqui */
+* {
+    outline: 1px dotted blue; 
+}
+header p{
+    display: inline-block;
+    color: rgb(83, 88, 95);
+    align-self: center;
+}
+header img{
+    width: 100px;
+}
+#seed{
+    background-image: url('../img/semilla.jpg');
+    height: 400px;
+}
+#meto{
+    background-image: url('../img/metodo.JPG');
+    height: 400px;
+}
+#fondo{
+    background-image: url('../img/fondo.jpg');
+    height: 400px;
+}
+#pro1{
+    background-image: url('../img/fotos/img-0352.jpg');
+    height: 300px;
+    background-size: cover;
+	/* background-repeat: no-repeat;
+	background-position: center; */
+}
+#pro2{
+    background-image: url('../img/fotos/img-9246.jpg');
+    height: 300px;
+}
+.proyect{
+    width: 500px;
+}
+
+footer p{
+    margin: 0;
+}
+
+h1,h2,h3,h4,h5{
+    font-family: 'OpenSans-Bold';
+}
+p{
+    font-family: 'OpenSans-Regular';
+}

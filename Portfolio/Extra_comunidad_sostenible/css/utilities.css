@@ -1,19 +1,19 @@
 /*Global*/
-*{
+/* *{
 	font-family: "OpenSans-Light" Helvetica;
-}
+} */
 
 @font-face{
-	font-family: OpenSans-Regular;
-	src: url(../fonts/Open/OpenSans-Regular.ttf);
+	font-family: 'OpenSans-Regular';
+	src: url('../fonts/Open/OpenSans-Regular.ttf');
 }
 @font-face{
-	font-family: OpenSans-Light;
-	src: url(../fonts/Open/OpenSans-Light.ttf);
+	font-family: 'OpenSans-Light';
+	src: url('../fonts/Open/OpenSans-Light.ttf');
 }
 @font-face{
-	font-family: OpenSans-Bold;
-	src: url(../fonts/Open/OpenSans-Bold.ttf);
+	font-family: 'OpenSans-Bold';
+	src: url('../fonts/Open/OpenSans-Bold.ttf');
 }
 
 /* Shortcuts */
@@ -50,6 +50,7 @@
 }
 .text-center{
 	text-align: center;
+	align-self: center;
 }
 .text-left{
 	text-align: left;
