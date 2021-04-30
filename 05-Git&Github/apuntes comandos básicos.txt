@@ -1,0 +1,124 @@
+Comandos Linux / Mac / Git Bash
+
+pwd    :  indica el directio actual
+
+ls : lista los archivos o direcciones del actual directorio.
+
+ls -al : lista con detalle.
+
+cd :  es para el uso de navegacion entre carpetas.
+
+cd .  : direcctorio actual
+cd .. : volver al padre de la  carpeta actual.
+cd <<nombre directorio>> : ENTRAR a la carpeta indicada.
+
+cd / : vuelve al directorio RAIZ
+
+mkdir nuevo_directorio  :  crea una carpeta nueva
+rm <directorio> :  elimina un directorio vacio
+
+rm -rf nombre_directorio  : eliminar un directorio que tenga archivos dentro
+
+comandos VIM: 
+vim nombre_archivo :  crea o entra al archivo con el editor VIM.
+tecla A o Insert :  para agregar o editar contenido.
+
+salir del modo EDICION: tecla ESC
+
+:q   =  SALIR
+:wq  =  GUARDAR Y SALIR
+:!q  = SALIR SIN GUARDAR
+
+git init : Inicializa el repositorio LOCAL
+git add .  : agrega los archivos pendientes o modificados al ESCENARIO (STAGE)
+
+git add <<nombre archivo>>
+git add "*.txt"  : agrega TODOS los archivos .txt del proyecto
+git add *.txt : agrega los txt de la carpeta actual.
+
+git commit -m "<<mensaje>>"     :  saca una foto actual al STAGE o ESCENARIO y lo deja en 
+					historia del proyecto en el repositorio LOCAL.
+
+git status: ver el estado del ESCENARIO
+git log :  ver commits realizados. 
+
+git restore --staged <file>...  quitar un archivo del escenario.
+
+
+
+git reset --soft <numerocommit>  // quita todos los commit que existen hasta llegar al numero commit indicado. Deja los archivos en el stage.  
+
+git  reset --mixed <numerocommit>  // quita todos los commit hasta ese punto indicado y ademas deja los archivos fuera del stage.  Los cambios de los commit quitados siguen en nuestra carpeta. No se eliminan.
+
+git  reset --hard <numerocommit>  // quita todos los commit hasta ese commit indicado PERO ELIMINA TODOS LOS ARCHIVOS QUE ERAN PARTE DE ESOS COMIT. Es decir este comando nos deja tal como dejamos todo, al momento de hacer ese commit. Sin los archivos nuevos. 
+
+git reflog  / muestra TODOS los cambios que existen en el repositorio
+
+
+git commit --amend -m "Mensaje Actualizado"   // actualizar el comentario del ultimo commit realizado
+
+git diff           //     muestra la diferencia entre el ultimo commit y los cambios actuales.
+git diff --staged  // muestra la diferencia entre el ultimo commit y el escenario o stage. 
+
+Conectar repositorio REMOTO y vincular al LOCAL:
+git remote add origin <<enlace al github>>
+git push -u origin master     //  SUBE LOS CAMBIOS DEL REPOSITORIO LOCAL AL REMOTO  el -u se ocupa la primera vez para dejar por defecto que siempre se va a ocupar origin master
+git push                      //  SUBE LOS CAMBIOS DEL REPOSITORIO LOCAL AL REMOTO  el 
+
+
+comandos iniciales:
+git init
+git add .
+git commit -m "mensaje"
+git remote add origin <<enlace al github>>
+git push -u origin master
+
+ciclo de actualización: 
+git add .
+git commit -m "mensaje"
+git push
+
+
+git tag -a <<nombretag>> -m "<<detalle o mensaje del tag>>     : agrega una etiqueta al ultimo commit.
+ej:   git tag -a v0.1.0 -m "primer tag del proyecto"
+
+
+git tag -a <<nombretag>> -m "<<detalle o mensaje del tag>> <<ID del COMMIT>>    : agrega una etiqueta al commit indicado.
+
+git push --tags   :  actualiza los tags o etiquetas en GIT REMOTO (como github).
+
+GIT CLONE: clona un repositorio con TODO su historial de cosas.
+
+ej:  git clone https://github.com/choi5983/street_fighter.git
+
+
+
+GIT RAMAS:
+
+
+git branch <nombrenuevarama>    // crea una nueva rama
+git branch                       // lista ramas existentes
+git checkout <nombrerama>   // cambia a la rama que nombremos
+git diff <rama1> <rama2>  // compara diferencias entre ramas
+
+
+
+
+git merge <ramadestino>    // le decimos a git que queremos juntar todo el contenido hasta los cambios de la rama destino. Es decir incluir todos los commit .
+
+// una vez que la rama este en master podria ser innecesario tenerla, por lo que se puede eliminar
+git branch -d <rama a eliminar>  // elimina una rama 
+
+
+// cuando no existen commits en la rama master o a la cual queremos unir los cambios y hacemos un merge, este es conocido como  fast-fordward
+// cuando existen cambios en la rama a la cual queremos unir los cambios, pero no se topan archivos en comun en sus commits, y hacemos mergue, se llama mergue automatico. Debido a que crea solo un commit con los cambios. 
+// cuando existen archivos que se topan en las 2 ramas con commits, y hacemos mergue, este se le llama merge manual . Y tenemos que nosostros determinar que dejamos y que quitamos.  Y luego hacermos el commit. 
+
+
+
+
+
+
+
+
+
