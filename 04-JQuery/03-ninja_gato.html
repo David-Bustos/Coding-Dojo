@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ninja Poof!</title>
+    <title>Ninja-Cat</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
@@ -14,32 +14,23 @@
     <script>
         $(document).ready(function(){
             $('img').on('click', function(){
-                $(this).fadeOut("slow")
-            })
-
-            $('button').on('click', function(){
-                $('img').fadeIn()
+                let ninja = $(this).attr("src");
+                let cat = $(this).attr("src2");
+                $(this).attr("src", cat);
+                $(this).attr("src2", ninja);
             })
         });
     </script>
 
 </head>
 <body>
-    <h1 class="text-center my-5">Ninja Desapareciendo</h1>
+    <h1 class="text-center my-5">The Ninja Cat</h1>
+
+    <div class="row"><img class="col-4 offset-4 mb-1" src="img/ninja0.png" src2="img/cat0.png"></div>
+    <div class="row"><img class="col-4 offset-4 mb-1" src="img/ninja1.png" src2="img/cat1.png"></div>
+    <div class="row"><img class="col-4 offset-4 mb-1" src="img/ninja2.png" src2="img/cat2.png"></div>
+    <div class="row"><img class="col-4 offset-4 mb-1" src="img/ninja3.png" src2="img/cat3.png"></div>
+    <div class="row"><img class="col-4 offset-4 mb-1" src="img/ninja4.png" src2="img/cat4.png"></div>
     
-    <div class="row">
-        <div class="col-3 px-5"><img src="ninja.gif"></div>
-        <div class="col-3 px-5"><img src="ninja.gif"></div>
-        <div class="col-3 px-5"><img src="ninja.gif"></div>
-        <div class="col-3 px-5"><img src="ninja.gif"></div>
-    </div>
-    <div class="row">
-        <div class="col-3 px-5"><img src="ninja.gif"></div>
-        <div class="col-3 px-5"><img src="ninja.gif"></div>
-        <div class="col-3 px-5"><img src="ninja.gif"></div>
-        <div class="col-3 px-5"><img src="ninja.gif"></div>
-    </div>
-    
-    <button class="btn btn-success btn-sm m-5">Restaurar</button>
 </body>
 </html>
