@@ -15,4 +15,28 @@ $(document).ready(function(){
         $(this).parent().siblings().toggle();
     })
 
+    // SlideUp - 
+    $('#slup').on('click', function(){
+        $(this).parent().siblings().slideUp("slow");
+    })
+
+    // SlideDown - 
+    $('#sldown').on('click', function(){
+        $(this).parent().siblings().slideDown("slow");
+    })
+
+    // SlideToggle - 
+    $('#sltoggle').on('click', function(){
+        $(this).parent().siblings().slideToggle("slow");
+    })
+    
+    // FadeIn - 
+    $('#fdin').on('click', function(){
+        $(this).parent().siblings().fadeIn("slow");
+    })
+
+    // FadeOut - 
+    $('#fdout').on('click', function(){
+        $(this).parent().siblings().fadeOut("slow");
+    })
 });
