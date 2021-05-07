@@ -1,4 +1,4 @@
-<img src="00-Prebootcamp/td_cd.png" alt="drawing" width="900"/>
+<img src="img/td_cd.png" alt="drawing" width="900"/>
 
 # Desarrollo de Aplicaciones Full Stack Python Trainee 👨‍💻
 
