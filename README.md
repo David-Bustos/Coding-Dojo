@@ -26,10 +26,12 @@ Activity | Description | Build with |
 | [Python Web Site](https://github.com/David-Bustos) | Replica frontend del sitio web oficial de Python v2016 mediante Html & Css | `Html` `Css`|
 | [Comunidad Sostenible](https://github.com/David-Bustos/comunidad-sostenible) | Replica frontend de un sitio web incorporando el sistema de grillas de bootstrap 5 |  `Html` `Css` `Bootstrap`|
 | [Guía Git/Github](https://github.com/David-Bustos) | Apunte con los principales comandos de Git & Github | `Markdown` |
-| [Funciones JQuery](https://github.com/David-Bustos) | Snippet con las funciones elementales de Jquery | `JQuery` |
-| [Bicis Locas](https://github.com/David-Bustos/bicis-locas) | Ejercicio de validación para formulario web mediante el uso de JQuery 3.6 | `Javascript` `JQuery`|
-| [Pokedex](https://github.com/David-Bustos) | Diseño de un aplicación web alimentada a traves de *PokeApi* | `Html` `Css` `Bootstrap` `Javascript` `JQuery` `Ajax`|
-| [The Weather](https://github.com/David-Bustos) | Diseño de un aplicación web alimentada a traves de *OpenWeather* | `Html` `Css` `Bootstrap` `Javascript` `JQuery` `Ajax`|
+| [Funciones JQuery](https://github.com/David-Bustos) | Snippet con las funciones elementales de jQuery | `jQuery` |
+| [Bicis Locas](https://github.com/David-Bustos/bicis-locas) | Ejercicio de validación para formulario web mediante el uso de JQuery 3.6 | `Javascript` `jQuery`|
+| [Pokedex](https://github.com/David-Bustos) | Diseño de un aplicación web alimentada a traves de *PokeApi* | `Html` `Css` `Bootstrap` `Javascript` `jQuery` `Ajax`|
+| [The Weather](https://github.com/David-Bustos) | Diseño de un aplicación web alimentada a traves de *OpenWeather* | `Html` `Css` `Bootstrap` `Javascript` `jQuery` `Ajax`|
+| [Face Detection](https://github.com/David-Bustos) | Aplicación de detección facial de componentes | `Python` `OpenCV` `Streamlit`|
+| [MySQL queries](https://github.com/David-Bustos) | Ejercicios prácticos de consultas en base de datos relacionales | `MySQL`|
 
 
 <!--
