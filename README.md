@@ -28,7 +28,7 @@ Activity | Description | Build with |
 | [Funciones JQuery](https://github.com/David-Bustos) | Snippet con las funciones elementales de jQuery | `jQuery` |
 | [Bicis Locas](https://github.com/David-Bustos/bicis-locas) | Ejercicio de validación para formulario web mediante el uso de JQuery 3.6 | `Javascript` `jQuery`|
 | [Pokedex](https://github.com/David-Bustos/cual-pokemon) | Diseño de un aplicación web alimentada a traves de *PokeApi* | `Html` `Css` `Bootstrap` `Javascript` `jQuery` `Ajax`|
-| [The Weather](https://github.com/David-Bustos) | Diseño de un aplicación web alimentada a traves de *OpenWeather* | `Html` `Css` `Bootstrap` `Javascript` `jQuery` `Ajax`|
+| [The Weather](https://github.com/David-Bustos/api-clima) | Diseño de un aplicación web alimentada a traves de *OpenWeather* | `Html` `Css` `Bootstrap` `Javascript` `jQuery` `Ajax`|
 | [Face Detection](https://github.com/David-Bustos/face-detection) | Aplicación de detección facial de componentes | `Python` `OpenCV` `Streamlit`|
 | [MySQL queries](https://github.com/David-Bustos/mysql-exercises) | Ejercicios prácticos de consultas en base de datos relacionales | `MySQL`|
 | [Micro Projects](https://github.com/David-Bustos/micro-projects) | Conjunto de mini projectos explorando funcionalidades de Django | `Html` `Css` `Bootstrap` `Python` `Django`|
